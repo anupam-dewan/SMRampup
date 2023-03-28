@@ -1,4 +1,3 @@
-# SMRampup
 # SagMaker Ramup
 # 1. Train a Machine Learning Model
 
