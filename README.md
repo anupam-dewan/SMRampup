@@ -1,12 +1,12 @@
 # SMRampup
 # SagMaker Ramup
-2. Train a Machine Learning Model
+# 1. Train a Machine Learning Model
 
 Time: 45mins - 55 mins
 
 Overview: For this tutorial users use a synthetically generated auto insurance claims dataset. The inputs are the training, validation, and test datasets. Each of the data sets contain details and extracted features about claims and customers along with a fraud column indicating whether a claim was fraudulent or otherwise.
 
-Learning Objectives:
+# Learning Objectives:
 
 * Setup SM environment 
 * Build, train, and tune model using Hyperparameter Tuner
@@ -14,7 +14,7 @@ Learning Objectives:
 * Deploy the trained model to a real-time inference endpoint for testing using SM Endpoints
 * Evaluate the model by generating sample predictions and understanding feature impact
 
-Notes for steps:
+# Notes for steps:
 
 1. Create a new notebook in Studio and give it a file name
 2. It will take time for hyper parameter tuning results - (5-10) minutes, you will see a .... working and ! at the end.
@@ -25,12 +25,12 @@ Notes for steps:
 
 
 
-3. Automate Machine Learning Workflows
+# 2. Automate Machine Learning Workflows
 
 Time: 45-55 mins
 In this tutorial, you build a pipeline with the following steps: Data Processing, Train a Model, Evaluate a Model, Conditional Step, Create a Model, Bias check step, Model Explainability, Register Model, Deploy Model.
 
-Learning Objectives:
+# Learning Objectives:
 
 1. Run a SageMaker Processing job using the input raw data in S3 and outputs training, validation, and test splits to S3.
 2. Train an XGBoost model using SageMaker training jobs with training and validation data in S3 as inputs, and stores the trained model artifact in S3.
